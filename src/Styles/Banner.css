@@ -1,0 +1,71 @@
+.banner {
+    width: 1440px;
+    height:810px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 176px 100px;
+    /* gap: 112px; */
+}
+
+.banner-container{
+    width: 1240px;
+    max-width: 1240px;
+    height: 458px;
+    gap: 112px;
+    /* border: 2px solid #fff; */
+}
+.banner-frame-f{
+    width:1240px;
+    height: 274px;
+    /* font-size: 2rem; */
+    
+}
+.banner-frame-f h1{
+    text-transform: uppercase;
+    gap: 17px;
+    font-weight: 800;
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 80px;
+    letter-spacing: 0%;
+}
+.banner-frame-f h1 img{
+    width:128px;
+height: 64px;
+    border-radius: 100px;
+    /* margin-right: 16px; */
+
+}
+
+.banner-frame-s{
+    width: 1240px;
+    height: 72px;
+    gap: 32px;
+}
+
+.banner-frame-s ul{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 112px 0 0 0;
+    gap: 136px;
+}
+.banner-frame-s ul li{
+    /* margin: 0 16px; */
+    
+}
+
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0; */

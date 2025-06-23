@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.expertise-f {
+    width: 1440px;
+    height: 810px;
+    padding: 176px 100px;
+}
+.expertise-f-container {
+    width: 1240px;
+    max-width: 1240px;
+    height: 432px;
+    gap: 32px;
+}
+.expertise-f-title{
+    width: 1240px;
+    height: 48px;
+    gap: 8px;
+}
+.expertise-f-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+
+.card-container{
+    width: 1240px;
+    height: 352px;
+    gap: 64px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width:588px;
+    height: 144px;
+    gap: 16px;
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    
+}
+.card p {
+    font-family: poppins;
+}
